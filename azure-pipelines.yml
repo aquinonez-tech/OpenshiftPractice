@@ -16,7 +16,7 @@ steps:
     connectionType: 'OpenShift Connection Service'
     openshiftService: 'My Openshif'
     version: '4.2'
-    cmd: 'oc start build OpenshiftPractice --follow'
+    cmd: 'oc start-build OpenshiftPractice --follow'
 - task: oc-cmd@2
   inputs:
     connectionType: 'OpenShift Connection Service'
